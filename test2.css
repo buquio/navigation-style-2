@@ -1,0 +1,59 @@
+/*
+white-grey #f8f8f8
+grey #707070
+blue #1792d2
+royal blue #143774
+*/
+
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    color:#143774 ;
+    font-size: 3.375rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sub-title{
+    color:#1792d2 ;
+    font-weight: 700;
+    margin: 0;
+    font-size: 1rem;
+   
+}
+
+header{
+    background-color:#f8f8f8 ;
+    text-align: center;
+    padding: 2em 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li{
+    margin: 0 1rem;
+}
+
+nav a{
+    color: #707070;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+
